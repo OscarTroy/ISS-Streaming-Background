@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=ISS Streaming
+Icon=/home/oscar_troyano/workspace-eclipse/script/earth.png
+Exec=/home/oscar_troyano/workspace-eclipse/script/background.sh
