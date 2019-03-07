@@ -2,5 +2,5 @@
 Type=Application
 Terminal=false
 Name=ISS Streaming
-Icon=/home/oscar_troyano/workspace-eclipse/script/earth.png
-Exec=/home/oscar_troyano/workspace-eclipse/script/background.sh
+Icon=/home/xxxxx/ISS/earth.png
+Exec=/home/xxxxx/ISS/issBackgroundStreaming.sh
