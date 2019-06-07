@@ -11,14 +11,14 @@ All that you need to do is run the script and enjoy. And if you want to go furth
 
 Which things you need to install the software and how to install them:
 
-* streamlink
+#### 1. streamlink
 
-** UBUNTU
+- UBUNTU
 ```
 sudo apt-get install streamlink
 ```
 
-** CENTOS
+- CENTOS
 ```
 pip install pyopenssl yotta
 yum install epel-release
@@ -27,14 +27,14 @@ pip install streamlink
 pip uninstall pyOpenSSL #It is due an error with SSL library
 ```
 
-* vlc
+#### 2. vlc
 
-** UBUNTU
+- UBUNTU
 ```
 sudo apt-get install vlc
 ```
 
-** CENTOS
+- CENTOS
 ```
 yum install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
 yum install vlc
