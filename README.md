@@ -11,14 +11,33 @@ All that you need to do is run the script and enjoy. And if you want to go furth
 
 Which things you need to install the software and how to install them:
 
-* livestreamer
+* streamlink
+
+** UBUNTU
 ```
-sudo apt-get install livestreamer
+sudo apt-get install streamlink
+```
+
+** CENTOS
+```
+pip install pyopenssl yotta
+yum install epel-release
+yum install python-pip
+pip install streamlink
+pip uninstall pyOpenSSL #It is due an error with SSL library
 ```
 
 * vlc
+
+** UBUNTU
 ```
 sudo apt-get install vlc
+```
+
+** CENTOS
+```
+yum install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+yum install vlc
 ```
 
 ### Installing

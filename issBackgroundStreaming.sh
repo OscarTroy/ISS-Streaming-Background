@@ -10,7 +10,7 @@ else
 	do
 		if ! pgrep -f 'vlc -I dummy'; then
 			notify-send -u critical -t 3 -i $(dirname "${BASH_SOURCE[0]}")/earth.png "ISS Background Streaming" \ "Turning ON all systems \n Dowloading data from ISS..."
-    		livestreamer http://www.ustream.tv/channel/iss-hdev-payload best --player 'vlc -I dummy --video-wallpaper --no-video-title-show --noaudio'
+			streamlink http://www.ustream.tv/channel/iss-hdev-payload best --player 'vlc -I dummy --video-wallpaper --no-video-title-show --noaudio'
     	fi
     	sleep 60
     done
